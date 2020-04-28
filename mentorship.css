@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.borda {
+  border: 1px solid red;
+}
+
+.text-roxo {
+  color: #7510F7 !important;
+  font-size: 20px;
+}
+
+.title-roxo {
+  color: #7510F7;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.text-p {
+  font-weight: 350;
+  font-size: 18px;
+}
+
+.text-preco {
+  color: #7510F7;
+  font-size: 40px !important;
+  font-weight: 900;
+}
+
+.btn-card {
+  background-color: #7510F7;
+  color: #FFF !important;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.img-radius {
+  width: 100px;
+  border-radius: 80px;
+}
+
+.border-radius {
+  border: 1px solid white;
+  border-radius: 80px;
+  color: #FFF;
+}
+
+.border-introduce {
+  border: 1px solid #7510F7;
+  border-radius: 80px;
+  color: #FFF;
+}
+
+.border-radius:hover {
+  background-color: #FFF;
+  color: #7510F7;
+}
+
+/* Menu topo */
+
+.outline-border {
+  color: #7510F7;
+  border: 2px solid #7510F7;
+  border-radius: 30px; 
+}
+
+.outline-border:hover {
+  background-color: #7510F7;
+  transition: 0.3s;
+  color: #FFF !important;
+}
+
+header a {
+  color: #000;
+}
+
+a:hover {
+  color: #7510F7;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+#book {
+  margin-bottom: -120px;
+  position: relative;
+  box-shadow: 2px 2px 10px  rgba(0, 0, 0, 0.2);
+  clear: both;
+}
+
+.cards {
+  margin-top: -120px;
+}
