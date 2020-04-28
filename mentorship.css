@@ -15,6 +15,12 @@ body {
   border: 1px solid red;
 }
 
+.bg-roxo {
+  background-color: #7510F7;
+}
+
+/* CLASS TEXT */
+
 .text-roxo {
   color: #7510F7 !important;
   font-size: 20px;
@@ -46,6 +52,8 @@ body {
   padding: 10px;
 }
 
+/* CLASS RADIUS / BORDER */
+
 .img-radius {
   width: 100px;
   border-radius: 80px;
@@ -63,9 +71,15 @@ body {
   color: #FFF;
 }
 
+.border-introduce:hover {
+  background-color: #7510F7;
+  transition: 0.6s;
+}
+
 .border-radius:hover {
   background-color: #FFF;
   color: #7510F7;
+  transition: 0.6;
 }
 
 /* Menu topo */
@@ -92,7 +106,7 @@ a:hover {
   transition: 0.3s;
 }
 
-#book {
+#panel {
   margin-bottom: -120px;
   position: relative;
   box-shadow: 2px 2px 10px  rgba(0, 0, 0, 0.2);
